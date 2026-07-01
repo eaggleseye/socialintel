@@ -1,0 +1,21 @@
+# ContentIntel robots.txt
+# Allow search engines to crawl all pages
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.next/
+Disallow: /node_modules/
+Disallow: *.json
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://contentintel-xi.vercel.app/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
